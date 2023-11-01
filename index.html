@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arpit Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<style>
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background-color: rgb(36, 36, 55);
+    }
+
+    nav {
+        color: white;
+        display: flex;
+        align-items: center;
+        background-color: rgba(240, 248, 255, 0.132);
+        backdrop-filter: blur(50px);  
+        justify-content: space-evenly;
+        position: sticky;
+        backdrop-filter: blur(50px);
+        
+
+    }
+ 
+    .leftnav {
+        margin-left: 40px;
+        font-size: 35px;
+    }
+
+    .rightnav {
+        margin-left: 20px;
+    }
+
+    nav ul {
+        font-size: 17px;
+        display: flex;
+        margin: 25px;
+        position: sticky;
+    }
+
+    nav ul li {
+        margin-left: 22px;
+        list-style: none;
+    }
+
+    .first {
+        display: flex;
+        justify-content: space-around;
+        margin: 50px 0px;
+    }
+
+    .rightsec {
+        margin-top: 117px;
+        font-size: 3rem;
+        justify-content: center;
+    }
+
+    .btn a {
+        text-decoration: none;
+    }
+
+    .btn1 {
+        height: 26px;
+        width: 91px;
+        font-size: 18px;
+        border-radius: 6px;
+    }
+
+    .btn2 {
+        height: 26px;
+        width: 91px;
+        font-size: 18px;
+        border-radius: 6px;
+    }
+
+    .secondsection {
+
+
+        height: 70vh;
+        display: flex;
+    }
+
+    .secondsection1 {
+        margin: auto;
+        max-width: 70vw;
+        height: 70vh;
+    }
+
+
+    .footer2 {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .rightnav li a {
+        text-decoration: none;
+        color: aliceblue;
+
+    }
+
+
+
+    .first1 {
+        margin-left: 150px;
+        margin-right: 151px
+    }
+
+    .secon2 img {
+        margin-right: 134px;
+        height: 328px;
+        margin-top: 50px;
+
+        filter: drop-shadow(1px -1px 2px white);
+        /* box-shadow: 10px 10px 20px white; */
+
+    }
+
+    .s1 {
+        color: rgb(220, 220, 131);
+    }
+</style>
+
+<body>
+    <header>
+        <nav>
+            <div class="leftnav"> Arpit's Portfolio</div>
+            <div class="rightnav">
+                <ul>
+                    <li><a href="#home">HOME </a> </li>
+                    <li><a href="#about">ABOUT </a></li>
+                    <li><a href="#project">PROJECT</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="first" id="home" style="align-items: center;">
+            <div class="rightsec">Hi,My name is <span class="purple">ARPIT </span>
+                <div>And I'm a </div>
+                <span id="element"></span>
+                <div class="btn">
+                    <button class="btn1"><a target="_blank"
+                            href="https://docs.google.com/document/d/1sFBzffdAEXSQjqWMtahiRgIqgB8RUpGV4sTEd0Ngn0s/edit?usp=sharing">Resume
+                        </a></button>
+                    <button class="btn2"> <a target="_blank" href="https://github.com/arpitmastermind">
+                            Github</a></button>
+                </div>
+            </div>
+
+            <div class="leftSec"><img class="image" src="bg2.webp" alt="" style="
+                width: 100%;
+                margin-top: 10%;"></div>
+        </section>
+
+        <br>
+        <hr style="margin: 40px 84px;">
+        <section class="secondsection" id="about">
+            <div class="first1">
+                <h1> About</h1>
+                <div class="about">My name is Arpit, and I am a highly motivated and ambitious student pursuing a <span
+                        class="s1">BTech
+                        in
+                        Electronics & Communication Engineering</span> from the University Institute of Engineering
+                    &Technology at
+                    Chhatrapati Shahu
+                    Ji Maharaj University Kanpur, along with a <div><span class="s1"> BS degree in Data Science &
+                            Application</span> from the Indian
+                        Institute of Technology Madras, Chennai. </div>
+                </div>
+                <br>
+                <div> I am passionate about technology and innovation, and I am eager to learn and grow in these rapidly
+                    evolving fields. My dual degrees in Electronics & Communication Engineering and Data Science &
+                    Application will provide me with the broad knowledge and skills necessary to make significant
+                    contributions to the industry.</div>
+                <br>
+                <div> In addition to my academic studies, I am also actively involved in extracurricular activities. I
+                    have
+                    also organised Technical Event in UIET & organised Cultural Events in IIT MADRAS. </div>
+            </div>
+            <div class="secon2">
+                <img src="arpi.png" alt="">
+            </div>
+        </section>
+        <hr style="margin: 40px 84px;">
+        <section class="secondsection1" id="project">
+
+            <h1> Project</h1>
+            <div class="about" style="font-size: 17px;">1. Weather-app </div>
+            <br>
+            <div>
+
+                ncorporated and implemented a user-friendly interface to display weather information, including current
+                temperature, air condition, and humidity. Developed a backend system using OpenWeather API to retrieve
+                weather data for the user's current location or a specified location. The backend system also converts
+                the raw API data into a displayable format that is easy for users to understand.
+                <div><br></div>
+                The user interface of the weather app is designed to be simple and intuitive. Users can enter their
+                location The app then displays the current weather conditions for that
+                location, including the temperature, air condition, humidity, wind speed,
+                <div><br></div>
+                The backend system of the weather app is powered by the OpenWeather API. This API provides access to a
+                wide range of weather data, including current conditions, forecasts, historical data, and satellite
+                imagery. The backend system uses the OpenWeather API to retrieve the weather data for the user's current
+                location or a specified location..
+            </div>
+            <br>
+            <div><a href="https://github.com/arpitmastermind/Weather-Api" style="text-decoration: none; color: wheat;"
+                    target="_blank">Git Hub Link</a></div>
+            <br>
+
+        </section>
+        <hr style="margin: 40px 84px;">
+        <footer>
+            <div class="footer2" id="contact" style="background-color: black;">
+                <div class="f2" style="    margin-top: 21px;">Arpit' Portfolio</div>
+                <div class="f3">
+                    <ul class="l1">
+                        <li>CONTACT</li>
+                        <li>Mo. +91 7500713883</li>
+                        <li>Email - arpitsharma7583@gmail.com</li>
+                        <li>Linked in <a href="https://www.linkedin.com/in/arpit-0a4a2821a"
+                                style="text-decoration: none; color: wheat;">arpit</a></li>
+                    </ul>
+                </div>
+
+
+</body>
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('#element', {
+        strings: ['Web Developer....',],
+        typeSpeed: 50,
+    });
+</script>
+
+</html>
